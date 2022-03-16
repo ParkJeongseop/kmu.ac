@@ -138,7 +138,7 @@ def qr(request, path_word):
     )
     
     # taking url or text
-    url = f'https://kmu.ac/{path_word}'
+    url = f'http://kmu.ac/{path_word}?ref=QR'
     
     # adding URL or text to QRcode
     QRcode.add_data(url)
